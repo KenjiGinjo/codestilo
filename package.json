@@ -1,0 +1,5 @@
+{
+  "name": "@devfolio/env",
+  "main": "./src/index.ts",
+  "dependencies": {}
+}
