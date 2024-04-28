@@ -1,5 +1,33 @@
 {
-  "name": "@devfolio/env",
+  "name": "codesty",
+  "version": "0.0.1",
+  "description": "Codesty - A unified toolkit for managing code style and linting rules",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "style",
+    "lint",
+    "code",
+    "typescript"
+  ],
+  "author": "Kenji <kenjiginjo@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenjiginjo/codesty.git"
+  },
   "main": "./src/index.ts",
-  "dependencies": {}
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@types/node": "^20.12.7",
+    "eslint": "^9.1.1",
+    "typescript": "^5.4.5"
+  }
 }
