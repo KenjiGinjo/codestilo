@@ -1,7 +1,7 @@
 {
-  "name": "codesty",
+  "name": "codestilo",
   "version": "0.0.1",
-  "description": "Codesty - A unified toolkit for managing code style and linting rules",
+  "description": "Codestilo - A unified toolkit for managing code style and linting rules",
   "keywords": [
     "eslint",
     "prettier",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenjiginjo/codesty.git"
+    "url": "https://github.com/kenjiginjo/codestilo.git"
   },
   "main": "./src/index.ts",
   "files": [
