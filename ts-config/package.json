@@ -1,0 +1,16 @@
+{
+  "name": "codestilo-ts",
+  "description": "A base TSConfig for working with your typescript project.",
+  "version": "0.0.2",
+  "keywords": [
+    "tsconfig",
+    "bun"
+  ],
+  "author": "Kenji <kenjiginjo@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenjiginjo/codestilo.git"
+  },
+  "scripts": {}
+}
