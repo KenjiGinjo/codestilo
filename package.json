@@ -1,6 +1,6 @@
 {
   "name": "codestilo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Codestilo - A unified toolkit for managing code style and linting rules",
   "keywords": [
     "eslint",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenjiginjo/codestilo.git"
+    "url": "git+https://github.com/kenjiginjo/codestilo.git"
   },
   "bugs": {
     "url": "https://github.com/kenjiginjo/codestilo/issues"

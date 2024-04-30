@@ -1,11 +1,11 @@
 # Codestilo
 
-Codestilo is designed to streamline your development workflow by enabling direct configuration of ESLint and Prettier settings in your `package.json`. Simplify your project setup and ensure consistent coding standards across your teams with Codestilo.
+Codestilo is designed to streamline your development workflow by enabling direct configuration of ESLint and Prettier settings in your project. Simplify your project setup and ensure consistent coding standards across your teams with Codestilo.
 
 ## Features
 
-- **Direct Configuration**: Integrate ESLint and Prettier settings directly into your `package.json`.
-- **Consistent Standards**: Maintain coding consistency across various projects.
+- **Direct Configuration**: Integrate ESLint and Prettier settings directly into your project.
+
 - **Easy to Use**: Setup in seconds, and start coding with style!
 
 ## Installation
@@ -16,22 +16,34 @@ Install Codestilo into your project:
 npm install codestilo --save-dev
 ```
 
-## Configuration
 
-After installation, you can configure your project's linting and formatting by adding the following lines to your `package.json`:
+
+
+
 
 **ESLint Configuration**
 
-```json
-"eslintConfig": {
-    "extends": "codestilo/eslint-config/base"
-}
+After installation, you can configure your project's linting by adding the following lines to your `eslint.config.js`.
+
+```js
+import { ESLINT } from 'codestilo';
+
+export default [...ESLINT.ts]; // or other ESLint configurations in the ESLINT object
+
 ```
 
 **Prettier Configuration**
 
-```json
-"prettier": "codestilo/prettier-config/base"
+
+Formatting by adding the following lines to your `prettier.config.js`.
+```js
+import { PRETTIER } from 'codestilo';
+const config = {
+  ...PRETTIER.base, // or other Prettier configurations in the PRETTIER object
+};
+
+export default config;
+
 ```
 
 ## Usage
